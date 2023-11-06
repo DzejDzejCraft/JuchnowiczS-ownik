@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+body{
+    font-family: Josefin_Sans;
+    background-color: #E0C9A6 !important;
+}
+#title{
+    align-items: center;
+    background-color: #E0C9A6; 
+
+    margin-top: 0;  
+    position: fixed;
+    width:100%;
+    filter: drop-shadow(0 -6mm 4mm rgb(0, 0, 0));
+
+}
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+  width: 100%;
+  height: 100%;
+    
+    overflow: hidden;
+    position:absolute;
+    
+}
+#child {
+    float: left;
+    position: relative;
+    left: 50%;
+    top: 50%;
+   
+}
+#philosopher {
+    display: block;
+    position: relative;
+    left: -50%;
+    top: -50%;
+    transform: translateX(-30%) translateY(-50%);
+    width: 250%;
+    height: 250%;
+}
+a{
+    color: #880015;
+    font-size: large;
+}
+
+hr{
+    background-color:black;
+    border: 0cm;
+   
+}
+
+
